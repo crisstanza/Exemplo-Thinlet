@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<panel columns="2" gap="5" top="5" left="5" bottom="5" right="5">
+
+	<label text="Servidor:" /><textfield name="servidor" text="" weightx="1" />
+	<label text="Usu&#225;rio:" /><textfield text="" weightx="1" />
+	<label text="Senha:" /><passwordfield text="" weightx="1" />
+	
+	<label text="Teste:" />
+	<combobox selected="1" text="dois" editable="false">
+		<choice text="um" />
+		<choice text="dois" />
+		<choice text="3" />
+	</combobox>
+	
+	<label text=" " colspan="2" />
+	<label /><togglebutton text="start" action="action" />
+	<label text=" " colspan="2" />
+
+	<textarea colspan="2" weighty="1" />
+
+</panel>
